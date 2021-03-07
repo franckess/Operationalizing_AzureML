@@ -277,7 +277,7 @@ In the last two images we can see, respectively, that our `pipeline endpoint` is
  -->
 ## Screen Recording
 
-:movie_camera: :man_shrugging:
+:movie_camera:   =====>   :man_shrugging:
 
 ## Future work
 
