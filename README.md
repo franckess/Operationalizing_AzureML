@@ -1,8 +1,21 @@
 <img align="left" width="100" height="75" src="https://github.com/dpbac/Optimizing-an-ML-Pipeline-in-Azure/blob/master/images/microsoft-azure-640x401.png">
 
+## Environment Setup
+
+Before we get starting with this second project, it is important to set up our **local development environment** to match with the **Azure AutoML development environment**. 
+
+Below are the steps:
+
+1. Download and install `anaconda`
+2. Open `anaconda CMD` in the new folder
+3. Clone this repo
+4. `cd` into the local directory
+5. Run this `conda env create --file udacity_env.yml`
+6. Run `jupyter notebook`
+
 ## Overview
 
-In this second project of the **Udacity Nanodegree program Machine Learning Engineer with Microsoft Azure** we configure a cloud-based machine learning production model, deploy, 
+For this second project of the **Udacity Nanodegree program Machine Learning Engineer with Microsoft Azure** we configure a cloud-based machine learning production model, deploy, 
 and consume it.
 
 As in the first project, we use the `Bank Marketing dataset` which contains data collected during direct marketing campaigns (phone calls) of a Portuguese banking institution. 
@@ -36,7 +49,7 @@ source: Adapted from Nanodegree Program Machine Learning Engineer with Microsoft
 
 The following image shows the key steps listed above with some more detail.
 
-![](https://github.com/dpbac/Operationalizing-Machine-Learning-with-Azure/blob/master/images/architectural_diagram.JPG)
+![](https://github.com/carloshvp/Operationalizing_AzureML/blob/main/Overview_diagram.png)
 **Fig. 2 - Flow of operations of the complete project**
 
 
@@ -264,7 +277,7 @@ In the last two images we can see, respectively, that our `pipeline endpoint` is
  -->
 ## Screen Recording
 
-:movie_camera: https://youtu.be/QMO7mhYaGGw
+:movie_camera: :man_shrugging:
 
 ## Future work
 
