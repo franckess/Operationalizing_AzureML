@@ -132,7 +132,7 @@ Since `Applications Insights` is enabled we are able access logs output both at 
 In addition, we can get insights by checking the performance using the `Applications Insigth url`. You can see in the following image `Fig. 10` that we can, for instances, get information about `Failed requests` and `Server response time`. With this type of information available we can quickly take action if something goes wrong.
 
 ![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/application_insight_azure.png)
-**Fig. 10 - View insights (1/2)**
+**Fig. 10 - View insights**
 
 ### Step 5: Swagger Documentation
 
@@ -165,6 +165,8 @@ The following image we see that Swagger runs on localhost. There we see the HTTP
 Once the model is deployed, we use `scoring_uri` and `key` in [`endpoint.py`](https://github.com/franckess/Operationalizing_AzureML/blob/main/endpoint.py) script so we can interact with the trained model. 
 
 `endpoint.py` runs against the API producing JSON output from the model ([`data.json`](https://github.com/franckess/Operationalizing_AzureML/blob/main/data.json)).
+
+![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/automl_endpoint.png) | ![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/endpoint_py.png)
 
 We also `benchmark` the endpoint using `Apache Benchmark (ab)` running [`benchmark.sh`](https://github.com/franckess/Operationalizing_AzureML/blob/main/benchmark.sh) against the HTTP API using authentication keys to retrieve performance results.
 
