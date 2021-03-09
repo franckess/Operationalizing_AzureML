@@ -213,7 +213,7 @@ Additionally, publishing a pipeline, a public HTTP endpoint becomes available, a
 
 ## Screen Recording
 
-:movie_camera: ![https://youtu.be/7Jtw_DWThC0](https://youtu.be/7Jtw_DWThC0)
+:movie_camera: https://youtu.be/7Jtw_DWThC0
 
 ## Future work
 
