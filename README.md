@@ -1,4 +1,4 @@
-<img align="left" width="100" height="75" src="https://github.com/dpbac/Optimizing-an-ML-Pipeline-in-Azure/blob/master/images/microsoft-azure-640x401.png">
+<img align="left" width="100" height="75" src="https://github.com/franckess/Operationalizing_AzureML/blob/main/img/microsoft-azure-640x401.png">
 
 ## Environment Setup
 
@@ -201,19 +201,27 @@ In the figure below we can verify that the pipeline was successfuly created.
 <br/><br/>
  
 ![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/automl_pipeline.png)
-**Pipeline created**
+**Fig. 14 - Pipeline created**
 
-![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/confusion_matrix.png)
-**Fig. 23 - Confusion matrix result of testing the pipeline**
+The `Published Pipeline overview`, shows a REST endpoint and a status of ACTIVE. The Published Pipeline overview tab is present in this UI workflow: `Workspace > Pipeline > Pipeline Name`
 
-Now we reach the point of publishing our pipeline. Publishing a pipeline is the process of making a pipeline publicly available. Here we will use `Python SDK` to publish our pipeline.
+![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/publish_pipeline_overview.png)
+**Fig. 15 - Published pipeline with AzureML Studio**
+
+Now we reach the point of publishing our pipeline. Publishing a pipeline is the process of making a pipeline publicly available. Here we will use `Python SDK` to publish our pipeline. A screenshot of the Jupyter Notebook is included in the submission showing the use `RunDetails` with the step runs
+
+![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/pipeline_endpoint_py.png)
+**Fig. 16 - Published pipeline with Python SDK**
+
+![](https://github.com/franckess/Operationalizing_AzureML/blob/main/img/pipeline_endpoint_active.png)
+**Fig. 17 - Published pipeline with AzureML Studio**
 
 When published we can access in the workspace details about the pipeline and we can also run the pipeline manually from the portal.
 Additionally, publishing a pipeline, a public HTTP endpoint becomes available, allowing other services, including external ones, to interact with an Azure Pipeline (as seen in the notebook).
 
 ## Screen Recording
 
-:movie_camera: https://youtu.be/7Jtw_DWThC0
+:movie_camera:   https://youtu.be/f9dWtVUhiHs
 
 ## Future work
 
